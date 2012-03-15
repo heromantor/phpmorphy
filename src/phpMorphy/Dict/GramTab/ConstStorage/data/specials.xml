@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gramtab>
+    <options>
+        <lang>Special</lang>
+        <lang_short>SPECIAL</lang_short>
+    </options>
+
+    <part_of_speech>
+        <pos name="DELETED" const_name="DELETED" id="255"/>
+    </part_of_speech>
+    <grammems />
+</gramtab>

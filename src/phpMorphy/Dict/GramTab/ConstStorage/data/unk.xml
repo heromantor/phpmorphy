@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gramtab>
+    <options>
+        <lang>Unknown</lang>
+        <lang_short>U</lang_short>
+    </options>
+
+    <part_of_speech>
+        <pos name="UNKNOWN" const_name="UNKNOWN" id="0"/>
+    </part_of_speech>
+    <grammems>
+        <grammem name="" const_name="UNKNOWN" id="0" shift="0"/>
+    </grammems>
+</gramtab>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gramtab>
+    <options>
+        <lang>English</lang>
+        <lang_short>E</lang_short>
+    </options>
+
+    <part_of_speech>
+        <pos name="NOUN" const_name="NOUN" id="0"/>
+        <pos name="ADJECTIVE" const_name="ADJ" id="1"/>
+        <pos name="VERB" const_name="VERB" id="2"/>
+        <pos name="VBE" const_name="VBE" id="3"/>
+        <pos name="MOD" const_name="MOD" id="4"/>
+        <pos name="NUMERAL" const_name="NUMERAL" id="5"/>
+        <pos name="CONJ" const_name="CONJ" id="6"/>
+        <pos name="INT" const_name="INTERJ" id="7"/>
+        <pos name="PREP" const_name="PREP" id="8"/>
+        <pos name="PART" const_name="PARTICLE" id="9"/>
+        <pos name="ARTICLE" const_name="ART" id="10"/>
+        <pos name="ADVERB" const_name="ADV" id="11"/>
+        <pos name="PN" const_name="PN" id="12"/>
+        <pos name="ORDNUM" const_name="ORDNUM" id="13"/>
+        <pos name="PRON" const_name="PRON" id="14"/>
+        <pos name="POSS" const_name="POSS" id="15"/>
+        <pos name="PN_ADJ" const_name="PN_ADJ" id="16"/>
+        <pos name="" const_name="EMPTY" id="17"/>
+    </part_of_speech>
+    <grammems>
+        <grammem name="SG" const_name="SINGULAR" id="0" shift="0"/>
+        <grammem name="PL" const_name="PLURAL" id="1" shift="1"/>
+        <grammem name="M" const_name="MASCULINUM" id="2" shift="2"/>
+        <grammem name="F" const_name="FEMINUM" id="3" shift="3"/>
+        <grammem name="ANIM" const_name="ANIMATIVE" id="4" shift="4"/>
+        <grammem name="PERF" const_name="PERFECTIVE" id="5" shift="5"/>
+        <grammem name="NOM" const_name="NOMINATIVE" id="6" shift="6"/>
+        <grammem name="OBJ" const_name="OBJECT_CASE" id="7" shift="7"/>
+        <grammem name="NARR" const_name="NARRATIVE" id="8" shift="8"/>
+        <grammem name="GEO" const_name="GEOGRAPHICS" id="9" shift="9"/>
+        <grammem name="PROP" const_name="PROPER" id="10" shift="10"/>
+        <grammem name="PERS" const_name="PERSONAL_PRONOUN" id="11" shift="11"/>
+        <grammem name="POSS" const_name="POSSESSIVE" id="12" shift="12"/>
+        <grammem name="PRED" const_name="PREDICATIVE" id="13" shift="13"/>
+        <grammem name="UNCOUNT" const_name="UNCOUNTABLE" id="14" shift="14"/>
+        <grammem name="REF" const_name="REFLEXIVE_PRONOUN" id="15" shift="15"/>
+        <grammem name="DEM" const_name="DEMONSTRATIVE_PRONOUN" id="16" shift="16"/>
+        <grammem name="MASS" const_name="MASS" id="17" shift="17"/>
+        <grammem name="COMP" const_name="COMPARATIV" id="18" shift="18"/>
+        <grammem name="SUP" const_name="SUPREMUM" id="19" shift="19"/>
+        <grammem name="1" const_name="FIRST_PERSON" id="20" shift="20"/>
+        <grammem name="2" const_name="SECOND_PERSON" id="21" shift="21"/>
+        <grammem name="3" const_name="THIRD_PERSON" id="22" shift="22"/>
+        <grammem name="PRSA" const_name="PRESENT_INDEF" id="23" shift="23"/>
+        <grammem name="INF" const_name="INFINITIVE" id="24" shift="24"/>
+        <grammem name="PASA" const_name="PAST_INDEF" id="25" shift="25"/>
+        <grammem name="PP" const_name="PAST_PARTICIPLE" id="26" shift="26"/>
+        <grammem name="ING" const_name="GERUND" id="27" shift="27"/>
+        <grammem name="FUT" const_name="FUTURUM" id="28" shift="28"/>
+        <grammem name="IF" const_name="CONDITIONAL" id="29" shift="29"/>
+        <grammem name="PLSQ" const_name="APOSTROPHE_S" id="30" shift="30"/>
+        <grammem name="PLSGS" const_name="APOSTROPHE" id="31" shift="31"/>
+        <grammem name="NAME" const_name="NAMES" id="32" shift="32"/>
+        <grammem name="ORG" const_name="ORGANISATION" id="33" shift="33"/>
+    </grammems>
+</gramtab>
