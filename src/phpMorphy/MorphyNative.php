@@ -446,19 +446,13 @@ class phpMorphy_MorphyNative implements phpMorphy_MorphyInterface {
 
         if(is_array($word)) {
             $result = $this->__bulk_morphier->$method($word);
+            $not_found = $this->__bulk_morphier->getNotFoundWords();
 
-            if($type !== self::IGNORE_PREDICT) {
-                $not_found = $this->__bulk_morphier->getNotFoundWords();
-
-                for($i = 0, $c = count($not_found); $i < $c; $i++) {
-                    $word = $not_found[$i];
-
-                    $result[$word] = $this->predictWord($method, $word);
-                }
-            } else {
-                for($i = 0, $c = count($not_found); $i < $c; $i++) {
-                    $result[$not_found[$i]] = false;
-                }
+            for($i = 0, $c = count($not_found); $i < $c; ++$i) {
+                $word = $not_found[$i];
+                $result[$word] = ($type === self::IGNORE_PREDICT)
+                    ? null
+                    : $this->predictWord($method, $word);
             }
 
             return $result;
