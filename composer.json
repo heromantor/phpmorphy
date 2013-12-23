@@ -1,0 +1,18 @@
+{
+    "name": "makhov/phpmorphy",
+    "description": "phpMorphy - morphological analyzer library for Russisan, English and German languages",
+    "keywords": ["phpMorphy", "php-morphy", "phpmorphy"],
+    "homepage": "http://phpmorphy.sourceforge.net/",
+    "type": "library",
+    "license": "GNU GPL 2.1",
+    "authors": [
+        {
+            "name": "Kamaev Vladimir",
+            "email": "heromantor@users.sourceforge.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    }
+}
