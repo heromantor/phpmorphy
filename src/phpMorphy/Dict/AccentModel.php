@@ -66,5 +66,5 @@ class phpMorphy_Dict_AccentModel extends phpMorphy_Util_Collection_ArrayBased/*_
 
     function __toString() {
         return phpMorphy_Dict_ModelsFormatter::create()->formatAccentModel($this);
->   }
+    }
 }
