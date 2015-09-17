@@ -23,7 +23,7 @@
 class phpMorphy_Paradigm_CollectionSerializer {
     /**
      *
-     * @param phpMorphy_Paradigm_Interface[] $collection
+     * @param phpMorphy_Paradigm_ParadigmInterface[] $collection
      * @param bool $asText
      * @return string
      */
@@ -38,11 +38,11 @@ class phpMorphy_Paradigm_CollectionSerializer {
     }
 
     /**
-     * @param phpMorphy_Paradigm_Interface $paradigm
+     * @param phpMorphy_Paradigm_ParadigmInterface $paradigm
      * @param bool $asText
      * @return array
      */
-    protected function processParadigm(phpMorphy_Paradigm_Interface $paradigm, $asText) {
+    protected function processParadigm(phpMorphy_Paradigm_ParadigmInterface $paradigm, $asText) {
         $forms = array();
         $all = array();
 
