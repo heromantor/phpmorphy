@@ -26,7 +26,7 @@ class phpMorphy_MorphyNative implements phpMorphy_MorphyInterface {
     const STORAGE_FILE = phpMorphy_Storage_Factory::STORAGE_FILE;
     const STORAGE_MEM = phpMorphy_Storage_Factory::STORAGE_MEM;
     const STORAGE_SHM = phpMorphy_Storage_Factory::STORAGE_SHM;
-    
+
     protected
         $storage_factory,
         $common_fsa,
@@ -546,7 +546,7 @@ class phpMorphy_MorphyNative implements phpMorphy_MorphyInterface {
 
     protected function createCommonSource(phpMorphy_FilesBundle $bundle, $opts) {
         $type = $opts['type'];
-        
+
         switch($type) {
             case phpMorphy_Source_SourceFactory::SOURCE_FSA:
                 return new phpMorphy_Source_Fsa($this->common_fsa);
@@ -668,7 +668,7 @@ class phpMorphy_MorphyNative implements phpMorphy_MorphyInterface {
         return phpMorphy_GrammemsProvider_Factory::create($this);
     }
 
-    protected function createParadimSerializer() {
+    protected function createParadigmSerializer() {
         return new phpMorphy_Paradigm_CollectionSerializer();
     }
 
