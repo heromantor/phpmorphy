@@ -124,7 +124,7 @@ abstract class phpMorphy_UnicodeHelper_UnicodeHelperAbstract implements phpMorph
     function strlen($string) {
         if(isset(self::$STRLEN_FUNCTION_NAME)) {
             $foo = self::$STRLEN_FUNCTION_NAME;
-            return $foo($string, $this->encoding);
+            return $foo($string, $this->encoding."//IGNORE//TRANSLIT");
         } else {
             return $this->strlenImpl($string);
         }
