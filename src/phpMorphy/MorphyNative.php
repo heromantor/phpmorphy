@@ -668,7 +668,7 @@ class phpMorphy_MorphyNative implements phpMorphy_MorphyInterface {
         return phpMorphy_GrammemsProvider_Factory::create($this);
     }
 
-    protected function createParadimSerializer() {
+    protected function createParadigmSerializer() {
         return new phpMorphy_Paradigm_CollectionSerializer();
     }
 
